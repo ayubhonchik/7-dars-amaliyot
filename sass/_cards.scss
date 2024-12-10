@@ -1,0 +1,29 @@
+.cards{
+    min-height: 688px;
+    background-color: #3D4A39;
+    .container{
+        h2{
+            font-weight: 600;
+            font-size: 46px;
+            color: white;
+            margin-bottom: 70px;
+            padding-top: 100px;
+            text-align: center;
+        }
+        .cards__wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .card{
+            p{
+                color: #ffffff4e;
+            }
+
+        }
+    }
+}

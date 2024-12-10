@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav .container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+nav .container .navbar ul {
+  display: flex;
+  gap: 40px;
+  height: 53px;
+  align-items: center;
+}
+nav .container .navbar ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #282B22;
+}
+nav .container .navbar .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .container .navbar .phone {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+nav .container .navbar .phone p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.svg);
+  min-height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .container .header__text {
+  width: 537px;
+  margin: 0 auto;
+  padding-top: 120px;
+  text-align: center;
+}
+header .container .header__text h1 {
+  color: #FFFFFF;
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+header .container .header__text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 50px;
+  opacity: 80%;
+}
+header .container .header__text button {
+  background-color: #AE7B3C;
+  border: none;
+  padding: 22px 49px 22px 56px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+header .container .hr {
+  border: 1px solid rgba(255, 255, 255, 0.2549019608);
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+.hero .container h2 {
+  font-weight: 600;
+  font-size: 46px;
+  text-align: center;
+  margin-top: 140px;
+  color: #282B22;
+  margin-bottom: 140px;
+}
+.hero .hero__wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.hero .hero__wrapper .hero__item {
+  padding-left: 30px;
+  width: 384px;
+  height: 458px;
+  border-left: 1px solid rgba(40, 43, 34, 0.2823529412);
+}
+.hero .hero__wrapper .hero__item p {
+  opacity: 50%;
+  font-weight: 600;
+  font-size: 24px;
+  color: #282B22;
+  margin-bottom: 55px;
+}
+.hero .hero__wrapper .hero__item b {
+  font-weight: 600;
+  font-size: 24px;
+  color: #3D4A39;
+  display: block;
+  margin-bottom: 30px;
+}
+.hero .hero__wrapper .hero__item img {
+  width: 333px;
+}
+
+.cards {
+  min-height: 688px;
+  background-color: #3D4A39;
+}
+.cards .container h2 {
+  font-weight: 600;
+  font-size: 46px;
+  color: white;
+  margin-bottom: 70px;
+  padding-top: 100px;
+  text-align: center;
+}
+.cards .container .cards__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.cards .container .card p {
+  color: rgba(255, 255, 255, 0.3058823529);
+}/*# sourceMappingURL=main.css.map */

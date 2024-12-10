@@ -1,0 +1,44 @@
+.hero{
+    margin-bottom: 40px;
+    .container{
+        h2{
+            font-weight: 600;
+            font-size: 46px;
+            text-align: center;
+            margin-top: 140px;
+            color: #282B22;
+            margin-bottom: 140px;
+        }
+    }
+    .hero__wrapper{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        .hero__item{
+            padding-left: 30px;
+            width: 384px;
+            height: 458px;
+            border-left: 1px solid #282b2248;
+            p{
+                opacity: 50%;
+                font-weight: 600;
+                font-size: 24px;
+                color: #282B22;
+                margin-bottom: 55px;
+
+            }
+            b{
+                font-weight: 600;
+                font-size: 24px;
+                color: #3D4A39;
+                display: block;
+                margin-bottom: 30px;
+
+            }
+            img{
+                width: 333px;
+            }
+
+        }
+    }
+}
